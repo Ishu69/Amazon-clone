@@ -276,6 +276,9 @@ hr{
 .footpannel1:hover{
     background-color: #00718588;
 }
+.footpannel1 a:hover {
+    color: white;
+}
 .footpannel2{
     background-color: #2a537e;
     height: 300px;
