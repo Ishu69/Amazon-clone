@@ -260,7 +260,7 @@ hr{
 /**Footer**/
 .footpannel1{
     display: flex;
-    background-color:#007185;
+    background-color:#3c6b73;
     justify-content: center;
     align-items: center;
     height: 10vh;
@@ -274,7 +274,7 @@ hr{
     font-size: 1rem;
 }
 .footpannel1:hover{
-    background-color: #00718588;
+    background-color: #29484e88;
 }
 .footpannel1 a:hover {
     color: white;
