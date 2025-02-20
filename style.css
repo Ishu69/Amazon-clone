@@ -260,7 +260,7 @@ hr{
 /**Footer**/
 .footpannel1{
     display: flex;
-    background-color:#222f3d;
+    background-color:#2a3b4c;
     justify-content: center;
     align-items: center;
     height: 10vh;
@@ -280,7 +280,7 @@ hr{
     color: white;
 }
 .footpannel2{
-    background-color: #2a3b4c;
+    background-color: #222f3d;
     height: 300px;
     color: white;
     display: flex;
