@@ -428,4 +428,7 @@ a:hover{
     .navcart{
         display: none;
     }
+    .navsearch{
+        width: 100%;
+    }
 }
