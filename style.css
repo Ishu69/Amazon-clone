@@ -21,10 +21,11 @@
     background-image: url(amazon\ logo.jpeg);
     background-size: cover;
     height: 50px;
-    width: 100%;
+    width: 100px;
 }
 
 .navlogo {
+    
     height: 50px;
     width: 100px;
 }
@@ -155,7 +156,7 @@ span {
     margin: 10px;
 }
 .pannelop {
-    width: 70%;
+    width: 90%;
     font-size: 0.85rem;
 }
 .pannelele{
@@ -165,24 +166,14 @@ span {
 /**herosection**/
 .herosection{
  background-image: url(hero_image.jpg);
- background-size: 100%;
+ background-size: 100% 100%;
  background-repeat: no-repeat;
- height: 350px;
+ height: 300px;
  display: flex;
  justify-content: center;
  align-items: flex-end;
 }
-.herotext{
-    background-color: white;
-    color:black;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.85rem;
-    width: 90%;
-    margin-bottom: 25px;
-}
+
 .herotext a{
     color:#007185;
     font-size: 0.85rem;
@@ -365,11 +356,73 @@ a:hover{
     justify-content:space-evenly;
     padding-top:10px;
     padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 .footpannel5 a {
    margin-top: 0;
    display:inline ;
    color: white;
-   font-size: 1.2rem;
+   font-size: 1rem;
 }
-
+.footpannel5 a:hover{
+    text-decoration: underline;
+}
+.termsandcondition{
+    background-color:#1a1b1b ;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+}
+@media (max-width:745px){
+    .shopingsection{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+        height: 400px;
+    }
+    .navlogo{
+        width: 20px;  
+    
+    }
+    *{
+      font-size:15px ;  
+     white-space: nowrap;
+    }
+    .logo{
+        display: none;
+    }
+    .pannelele{
+        display: none;
+    }
+    .pannelop p{
+        margin: 4px;
+    }
+    .herotext{
+        display: none;
+    }
+    .herosection{
+        height: 200px;
+    }
+    .footpannel2 a{
+        font-size: 13px;
+    }
+    .footpannel2 ul p{
+        font-size: 1.2rem;
+    }
+    .boxcontent h2{
+        font-size: 20px;
+    }
+    .navsingin{
+        display: none;
+    }
+    .navbar{
+        position: fixed;
+        width: 100%;
+    }
+}
