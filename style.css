@@ -44,8 +44,7 @@
 .add1 {
     color: #cccccc6f;
     font-size: 0.8rem;
-    margin-left: 17px;
-
+    margin-left: 15px;
 }
 
 .add2 {
@@ -198,41 +197,49 @@ span {
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-y: hidden;
 }
 .boximg2{
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-y: hidden;
 }
 .boximg3{
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-y: hidden;
 }
 .boximg4{
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-y: hidden;
 }
 .boximg5{
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-y: hidden;
 }
 .boximg6{
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-y: hidden;
 }
 .boximg7{
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-y: hidden;
 }
 .boximg8{
     height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    overflow-y: hidden;
 }
 .boxcontent{
     margin-left: 1rem;
@@ -379,16 +386,20 @@ a:hover{
     padding-right: 70px;
     padding-bottom: 20px;
 }
-@media (max-width:745px){
+@media (max-width:745px) {
     .shopingsection{
         flex-direction: column;
     }
     .box{
-        width: 100%;
+        width: 100vw;
         height: 400px;
+    }
+    .navlogo{
+        width: 0px;  
     }
     *{ 
      white-space: nowrap;
+     overflow-x: hidden;
     }
     .logo{
         display: none;
@@ -403,13 +414,25 @@ a:hover{
         display: none;
     }
     .herosection{
-        height: 200px;
+        height: 130px;
     }
     .footpannel2 a{
         font-size: 13px;
     }
     .footpannel2 ul p{
-        font-size: 1.2rem;
+        font-size: small;
+    }
+    .footpannel4 a{
+        font-size: small;
+    }
+    .footpannel4 p a{
+        font-size: small;
+    }
+    .footpannel5 a{
+        font-size: small;
+    }
+    .termsandcondition{
+        font-size: small;
     }
     .boxcontent h2{
         font-size: 20px;
@@ -419,12 +442,17 @@ a:hover{
     }
     .navbar{
         position: fixed;
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
+        overflow: hidden;
     }
     .navcart{
         display: none;
     }
-    .navsearch{
-        width: 100%;
+    .navaddress{
+        display: none;
+    }
+    .navreturn{
+        display: none;
     }
 }
