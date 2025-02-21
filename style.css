@@ -172,6 +172,7 @@ span {
  display: flex;
  justify-content: center;
  align-items: flex-end;
+ padding-top: 70px;
 }
 
 .herotext a{
@@ -390,8 +391,7 @@ a:hover{
         width: 20px;  
     
     }
-    *{
-      font-size:15px ;  
+    *{ 
      white-space: nowrap;
     }
     .logo{
