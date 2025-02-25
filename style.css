@@ -9,7 +9,7 @@
 /** navbar**/
 .navbar {
     height: 60px;
-    background-color: #201d1d;
+    background-color: #050505;
     color: white;
     display: flex;
     align-items: center;
@@ -172,8 +172,8 @@ span {
  height: 300px;
  display: flex;
  justify-content: center;
- align-items: flex-end;
- padding-top: 70px;
+ align-items: center;
+ padding-top: 90px;
 }
 
 .herotext a{
@@ -388,7 +388,7 @@ a:hover{
     padding-right: 70px;
     padding-bottom: 20px;
 }
-@media (max-width:745px) {
+@media (max-width:756px) {
     .shopingsection{
         flex-direction: column;
     }
@@ -399,6 +399,9 @@ a:hover{
     .navlogo{
         width: 0px;  
     }
+    .navsearchicon i{
+      overflow: hidden;
+    }
     *{ 
      white-space: nowrap;
      overflow-x: hidden;
@@ -406,16 +409,12 @@ a:hover{
     .logo{
         display: none;
     }
-    .pannelele{
-        display: none;
-    }
     .pannelop p{
         margin: 4px;
-    }
-    .herotext{
-        display: none;
+        display:inline;
     }
     .herosection{
+        margin-top: 10px;
         height: 130px;
     }
     .footpannel2 a{
@@ -447,6 +446,7 @@ a:hover{
         width: 100vw;
         max-width: 100%;
         overflow: hidden;
+        background:linear-gradient(45deg,#b3ffff,#b3ffe6);
     }
     .navcart{
         display: none;
